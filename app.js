@@ -1,5 +1,5 @@
 
-
+const mailchimp = require("@mailchimp/mailchimp_marketing");
 const express = require("express");
 const app = express();
 
@@ -16,9 +16,14 @@ app.post("/", function(req,res){
   var lName = req.body.lastName;
   var email = req.body.email;
 
-  console.log(fName,lName,email);
+
+
 })
 
 app.listen(3000, function(){
   console.log("test");
 })
+
+// API Key
+// eb3f8a5f0b617c41dde54b958aa7734d-us14
+// list id: f7165473eb

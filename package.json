@@ -13,6 +13,7 @@
   "author": "Joaquin Cisneros",
   "license": "ISC",
   "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.74",
     "express": "^4.17.3"
   }
 }
