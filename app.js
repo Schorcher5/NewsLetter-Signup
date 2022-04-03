@@ -12,7 +12,7 @@ app.get("/", function(req,res){
 });
 
 mailchimp.setConfig({
-  apiKey: "eb3f8a5f0b617c41dde54b958aa7734d-us14",
+  apiKey: "80a412c5f54171654f950fec78212853-us14",
   server: "us14"
 });
 
@@ -45,7 +45,7 @@ app.post("/", function(req,res){
 
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT||3000, function(){
   console.log("test");
 });
 
