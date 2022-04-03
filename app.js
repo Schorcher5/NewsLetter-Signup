@@ -48,3 +48,7 @@ app.post("/", function(req,res){
 app.listen(3000, function(){
   console.log("test");
 });
+
+app.get("/failure", function(req, res){
+  res.redirect("/");
+});
