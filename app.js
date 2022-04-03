@@ -12,8 +12,8 @@ app.get("/", function(req,res){
 });
 
 mailchimp.setConfig({
-  apiKey: "80a412c5f54171654f950fec78212853-us14",
-  server: "us14"
+  apiKey: "Filler for real api key",
+  server: "put actual server here"
 });
 
 app.post("/", function(req,res){
@@ -21,7 +21,7 @@ app.post("/", function(req,res){
   var lName = req.body.lastName;
   var email = req.body.email;
 
-  const listId = "f7165473eb";
+  const listId = "put your list id here";
   const user = {
     firstName:fName,
     lastName:lName,
